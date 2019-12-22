@@ -1,0 +1,34 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<main>
+    <div>
+        <h1>Blog</h1>
+
+        <h2>Featured</h2>
+        {{ range .Data.Pages.ByDate.Reverse }}
+        {{ if .Params.featured }}
+        <article>
+            <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
+            <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+            <p>{{ .Description }}</p>
+        </article>
+        {{ end }}
+        {{ end }}
+
+        <hr />
+
+        {{ range .Data.Pages.ByDate.Reverse }}
+        {{ if not .Params.featured }}
+        <article>
+            <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
+            <div class="time">{{ .Date.Format "Monday, January 2, 2006" }}</div>
+            <!-- <p>{{ .Summary }}</p> -->
+            <p>{{ .Description }}</p>
+        </article>
+        {{ end }}
+        {{ end }}
+    </div>
+</main>
+
+{{ partial "footer.html" . }}

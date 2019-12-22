@@ -1,0 +1,8 @@
+baseURL = "https://villev.io"
+languageCode = "en-us"
+title = "Horror stories by Ville"
+CanonifyUrls = true
+disableKinds = ["taxonomy", "taxonomyTerm", "category"]
+[taxonomies]
+  category = "categories"
+  tag = "tags"
