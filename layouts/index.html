@@ -28,7 +28,8 @@
             <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
             <div class="time">{{ .Date.Format "January 2, 2006" }}</div>
             <p>{{ .Description }}</p>
-            <hr />
+            <a href="{{ .Permalink }}" title="{{ .Title }}">Read more...</a>
+            <hr class="hr-index" />
         </article>
         {{ end }}
         {{ end }}
