@@ -4,6 +4,8 @@ date: 2019-08-07T00:00:00-02:00
 description: "When I was writing my first Ansible playbooks from scratch, for a real customer instead of training, I wasn't too confident to start testing them against real cloud instances or servers. I wasn't too enthusiasted about setting up a virtual machine with Hyper-V (Hyper-V blocks use of VirtualBox and Docker for Windows requires Hyper-V enabled) either or configuring Vagrant, especially not for Windows, which is currently the main operating system I use. That's when Docker came into the picture."
 author: "Ville Valtonen"
 draft: false
+featured: false
+
 ---
 
 When I was writing my first Ansible playbooks from scratch, for a real customer instead of training, I wasn't too confident to start testing them against real cloud instances or servers. I wasn't too enthusiasted about setting up a virtual machine with Hyper-V (Hyper-V blocks use of VirtualBox and Docker for Windows requires Hyper-V enabled) either or configuring Vagrant, especially not for Windows, which is currently the main operating system I use. That's when Docker came into the picture. I was already very familiar with Docker and I thought it would be great for testing my playbooks, since containers provides very isolated environment (unless specifically given) so I would not mess up with my host machine or any real instance. Docker containers are also really fast to spin up from an image, so I could rerun the playbook from scratch over and over again and get very quick feedback about my playbook. Since then, I've used it frequently while creating my initial versions of playbooks and while training or exploring some new features and modules of Ansible. Without going further about the background of this project, let's get into the actual testing!
