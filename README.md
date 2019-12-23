@@ -1,4 +1,3 @@
 Source code of my blog: https://villev.io
 
-TODO:
-- code syntax / highlighting
+Built with ([Hugo](https://gohugo.io))

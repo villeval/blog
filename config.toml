@@ -1,8 +1,0 @@
-baseURL = "https://villev.io"
-languageCode = "en-us"
-title = "Ville Valtonen"
-CanonifyUrls = true
-disableKinds = ["taxonomy", "taxonomyTerm", "category", "section"]
-[taxonomies]
-  category = "categories"
-  tag = "tags"
