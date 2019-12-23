@@ -1,1 +1,91 @@
-html{font-family:Ubuntu,sans-serif}.background{position:relative;background-color:#1f1f1f;width:100%;min-height:100vh;z-index:0;background-size:cover;background:url(img/bg-color.png);background-repeat:no-repeat;background-position:center;-webkit-background-size:cover;-moz-background-size:cover;-o-background-size:cover;background-size:cover}.navbar-custom{z-index:10;position:absolute;top:0;width:100%;text-align:right}.footer-custom{position:relative;margin-top:100px;bottom:0;width:100%}img{width:100%;margin-top:10px;z-index:5}hr{border-top:1px solid #fff}h1{position:relative;padding-top:0;font-size:30px}h3{text-align:left;font-size:22px;padding-top:12px}.mainpage-intro{font-size:16px;line-height:22px}.container{width:90vw;max-width:800px;font-family:"Nunito Sans",sans-serif}.landing-inner{padding-top:80px}.card-form{opacity:.9}.form-control::placeholder{color:#bbb!important}.content-header{padding-top:0;text-align:left}.content-text{text-align:justify}a{color:#2e9cca}a:hover{color:#2e9cca;text-decoration:underline}.post-preview-links{font-size:20px;font-weight:500}.post-preview-desc{padding-top:10px;text-align:justify}.back-to-posts{padding-left:15px;margin-bottom:10px}.hr-post{border-top:1px solid #2e9cca}
+html {
+  font-family: "Ubuntu", sans-serif;
+  background-color: rgb(50, 50, 50);
+  color: white;
+}
+
+body {
+  margin: 0;
+}
+
+/* navbar */
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+.social li {
+  float: left;
+}
+
+/* main */
+main {
+  width: 50%;
+  padding-right: 25%;
+  padding-left: 25%;
+  padding-top: 50px;
+}
+
+/* text */
+h1 {
+  position: relative;
+  color: white;
+}
+
+.h1-blog {
+  padding-top: 50px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5em;
+  text-align: justify;
+}
+
+/* links */
+a {
+  color: #2e9cca;
+}
+
+a:hover {
+  color: #2e9cca;
+  text-decoration: underline;
+}
+
+/* footer */
+footer {
+  width: 50%;
+  padding-right: 25%;
+  padding-left: 25%;
+  text-align: center;
+  position: relative;
+  padding-top: 100px;
+  padding-bottom: 20px;
+}
+
+.hr-post {
+  border-top: 1px solid #2e9cca;
+}
+
+.time {
+  font-style: italic;
+}

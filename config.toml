@@ -1,6 +1,6 @@
 baseURL = "https://villev.io"
 languageCode = "en-us"
-title = "Journal of Ville"
+title = "Ville Valtonen"
 CanonifyUrls = true
 disableKinds = ["taxonomy", "taxonomyTerm", "category", "section"]
 [taxonomies]

@@ -3,9 +3,15 @@
 
 <main>
     <div>
-        <h1>Blog</h1>
+        <h1>Hi, I'm Ville</h1>
+        <p>
+            Software engineer with passion for programming, system architectures and automation. Always learning and
+            improving.
+        </p>
 
-        <h2>Featured</h2>
+        <h1 class="h1-blog">Blog</h1>
+
+        {{/*  <h2>Featured</h2>
         {{ range .Site.RegularPages.ByDate.Reverse }}
         {{ if .Params.featured }}
         <article>
@@ -14,16 +20,15 @@
             <p>{{ .Description }}</p>
         </article>
         {{ end }}
-        {{ end }}
-
-        <hr />
+        {{ end }} */}}
 
         {{ range .Site.RegularPages.ByDate.Reverse }}
         {{ if not .Params.featured }}
         <article>
             <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
-            <div class="time">{{ .Date.Format "Monday, January 2, 2006" }}</div>
+            <div class="time">{{ .Date.Format "January 2, 2006" }}</div>
             <p>{{ .Description }}</p>
+            <hr />
         </article>
         {{ end }}
         {{ end }}

@@ -1,13 +1,14 @@
 {{ partial "header.html" . }}
 {{ partial "navbar.html" . }}
 
-
-<div class="container single">
+<main>
+    <a href="{{ .Site.BaseURL }}">Back to posts</a>
     <article>
-        <h1>{{ .Title }}</h1>
-        <div class="time">{{ .Date.Format "Monday, January 2, 2006" }}</div>
+        <h2 class="post-title">{{ .Title }}</h2>
+        <div class="time">{{ .Date.Format "January 2, 2006" }}</div>
+        <hr class="hr-post" />
         {{ .Content }}
     </article>
-</div>
+</main>
 
 {{ partial "footer.html" . }}
