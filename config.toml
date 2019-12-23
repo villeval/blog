@@ -1,8 +1,8 @@
 baseURL = "https://villev.io"
 languageCode = "en-us"
-title = "Horror stories by Ville"
+title = "Journal of Ville"
 CanonifyUrls = true
-disableKinds = ["taxonomy", "taxonomyTerm", "category"]
+disableKinds = ["taxonomy", "taxonomyTerm", "category", "section"]
 [taxonomies]
   category = "categories"
   tag = "tags"
