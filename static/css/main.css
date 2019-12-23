@@ -68,8 +68,8 @@ h1 {
 }
 
 .h1-blog {
-  padding-top: 50px;
-  margin-bottom: 20px;
+  padding-top: 40px;
+  margin-bottom: 15px;
   font-weight: 500;
   line-height: 1.2;
 }
@@ -138,4 +138,14 @@ footer {
 .time {
   margin-bottom: 10px;
   font-style: italic;
+}
+
+.hello {
+  margin-bottom: 5px;
+  line-height: 1em;
+}
+
+.bio {
+  margin-block-end: 0px;
+  margin-block-start: 0px;
 }
