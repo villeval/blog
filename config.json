@@ -1,25 +1,20 @@
 {
-    "baseURL": "https://villev.io",
-    "languageCode": "en-us",
-    "title": "Ville Valtonen",
-    "CanonifyUrls": true,
-    "disableKinds": [
-        "taxonomy",
-        "taxonomyTerm",
-        "category",
-        "section"
-    ],
-    "markup": {
-        "highlight": {
-            "codeFences": true,
-            "guessSyntax": false,
-            "hl_Lines": "",
-            "lineNoStart": 1,
-            "lineNos": false,
-            "lineNumbersInTable": true,
-            "noClasses": true,
-            "style": "solarized-dark256",
-            "tabWidth": 4
-        }
+  "baseURL": "https://vvaltonen.com",
+  "languageCode": "en-us",
+  "title": "Ville Valtonen",
+  "CanonifyUrls": true,
+  "disableKinds": ["taxonomy", "taxonomyTerm", "category", "section"],
+  "markup": {
+    "highlight": {
+      "codeFences": true,
+      "guessSyntax": false,
+      "hl_Lines": "",
+      "lineNoStart": 1,
+      "lineNos": false,
+      "lineNumbersInTable": true,
+      "noClasses": true,
+      "style": "solarized-dark256",
+      "tabWidth": 4
     }
+  }
 }
