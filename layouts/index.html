@@ -9,19 +9,18 @@
             improving.
         </p>
 
-        <h1 class="h1-blog">Blog</h1>
-
-        {{/*  <h2>Featured</h2>
+        <h1 class="h1-blog">Featured</h1>
         {{ range .Site.RegularPages.ByDate.Reverse }}
         {{ if .Params.featured }}
         <article>
             <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
-            <time>{{ .Date.Format "Mon, Jan 2, 2006" }}</time>
+            <time>{{ .Date.Format "January 2, 2006" }}</time>
             <p>{{ .Description }}</p>
         </article>
         {{ end }}
-        {{ end }} */}}
+        {{ end }}
 
+        <h1 class="h1-blog">Blog</h1>
         {{ range .Site.RegularPages.ByDate.Reverse }}
         {{ if not .Params.featured }}
         {{ if not .Params.hidden }}
