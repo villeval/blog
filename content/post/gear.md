@@ -24,5 +24,5 @@ Here is a list of equipment, which I use day to day for my work and personal com
 
 ### Tools
 - Intellij IDEA
-- Visual Studio
+- Visual Studio Code
 - Vim
