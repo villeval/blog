@@ -1,4 +1,4 @@
-Source code of my blog: https://villev.io
+Source code of my blog: https://vvaltonen.com
 
 Built with ([Hugo](https://gohugo.io))
 
@@ -8,5 +8,3 @@ TODO:
 - hovering on nav links
 - Pic for about author page
 - RSS feed (icon on nav)
-- tags?
-- fix CORS problem with index page brand links
