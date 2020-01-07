@@ -5,7 +5,7 @@ description: "Here is a list of equipment, which I use day to day for my work an
 author: "Ville Valtonen"
 draft: false
 featured: true 
-hidden: false 
+hidden: false
 ---
 
 Here is a list of equipment, which I use day to day for my work and personal computing needs.
