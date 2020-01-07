@@ -19,8 +19,8 @@ Here is a list of equipment, which I use day to day for my work and personal com
 - Mouse: Logitech MX518
 
 ### OS
-- Ubuntu 18.04 / Debian 10 (Buster)
-- Windows 10 (on gaming desktop)
+- Debian 10
+- Windows 10 (desktop)
 
 ### Tools
 - Intellij IDEA
