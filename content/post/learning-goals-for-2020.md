@@ -7,4 +7,6 @@ draft: true
 featured: false
 ---
 
-For some unknown reason
+1. Linux (emphasis on fundamentals like networking, firewalls, security)
+2. Algorithms and data structures
+3. Golang
