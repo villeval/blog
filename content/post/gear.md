@@ -1,14 +1,14 @@
 ---
-title: "What I use?"
-date: 2020-01-02T00:00:00-02:00
-description: "Here is a list of equipment, which I use day to day for my work and personal computing needs."
+title: "What I use for coding?"
+date: 2020-01-09T00:00:00+02:00
+description: "Here is a list of equipment, which I use day to day for my work and personal projects."
 author: "Ville Valtonen"
 draft: false
-featured: true 
+featured: true
 hidden: false
 ---
 
-Here is a list of equipment, which I use day to day for my work and personal computing needs.
+Here is a list of equipment, which I use day to day for my work and personal projects.
 
 ### Computer
 - Laptop (work): Lenovo Thinkpad X1 Carbon 6th gen. (i7/16Gb/512G/WQHD HDR IPS)
@@ -20,7 +20,7 @@ Here is a list of equipment, which I use day to day for my work and personal com
 
 ### OS
 - Debian 10
-- Windows 10 (desktop)
+- Windows 10 (for gaming)
 
 ### Tools
 - Intellij IDEA
