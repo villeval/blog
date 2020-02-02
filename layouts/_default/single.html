@@ -2,7 +2,7 @@
 {{ partial "navbar.html" . }}
 
 <main>
-    <a href="{{ .Site.BaseURL }}">Back to posts</a>
+    <a class="read-more" href="{{ .Site.BaseURL }}">Back to posts</a>
     <article>
         <h1>{{ .Title }}</h1>
         <div class="time">{{ .Date.Format "January 2, 2006" }}</div>
