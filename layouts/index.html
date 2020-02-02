@@ -17,9 +17,9 @@
         {{ if .Params.featured }}
         <article>
             <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
-            <time>{{ .Date.Format "January 2, 2006" }}</time>
+            <div class="time">{{ .Date.Format "January 2, 2006" }}</div>
             <p>{{ .Description }}</p>
-            <a href="{{ .Permalink }}" title="{{ .Title }}">Read more...</a>
+            <a class="read-more" href="{{ .Permalink }}" title="{{ .Title }}">Read more...</a>
         </article>
         {{ end }}
         {{ end }}
@@ -32,7 +32,7 @@
             <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
             <div class="time">{{ .Date.Format "January 2, 2006" }}</div>
             <p>{{ .Description }}</p>
-            <a href="{{ .Permalink }}" title="{{ .Title }}">Read more...</a>
+            <a class="read-more" href="{{ .Permalink }}" title="{{ .Title }}">Read more...</a>
             <hr class="hr-index" />
         </article>
         {{ end }}

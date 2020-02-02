@@ -30,7 +30,7 @@ ul.topnav {
   margin: auto;
   padding: 0;
   overflow: hidden;
-  font-size: 18px;
+  font-size: 17px;
   background-color: rgba(0,0,0,0);
 }
 
@@ -44,8 +44,8 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li.right {float: right; padding-left: 16px; font-size: 16px;}
-ul.topnav li.icons { font-size: 16px; margin-top: 2px;}
+ul.topnav li.right {float: right; padding-left: 16px; font-size: 17px;}
+ul.topnav li.icons { font-size: 17px; margin-top: 2px;}
 
 /* main */
 main {
@@ -64,7 +64,7 @@ h1 {
   margin-bottom: 18px;
   font-weight: 500;
   line-height: 1.2;
-  font-size: 30px;
+  font-size: 31px;
 }
 
 .h1-blog {
@@ -93,7 +93,7 @@ h3 {
 
 /* paragraphs */
 p {
-  font-size: 16px;
+  font-size: 17px;
   line-height: 1.5em;
   text-align: justify;
   margin-block-start: 1.4%;
@@ -102,6 +102,7 @@ p {
 
 /* links */
 a {
+  font-size: inherit;
   color: #2e9cca;
   text-decoration: none;
 }
@@ -109,6 +110,10 @@ a {
 a:hover {
   color: #2e9cca;
   text-decoration: underline;
+}
+
+.read-more {
+  font-size: 17px;
 }
 
 /* footer */
@@ -138,6 +143,7 @@ footer {
 }
 
 .time {
+  font-size: 17px;
   margin-bottom: 10px;
   font-style: italic;
 }
