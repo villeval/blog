@@ -8,8 +8,8 @@ featured: false
 hidden: true
 ---
 
-I'm a software engineer based in Finland. I work mainly on server-side programming, cloud and system architectures and devops-solutions. I'm also interested computer science, Linux and distributed systems. I vouch for agile development, devops-culture, open source, automation and remote working. For more detailed information about my experience and expertise check my [Linkedin-profile](https://linkedin.com/in/valtonenville1).
+I'm a software engineer based in Finland. I work mainly with server-side software, cloud and system architectures, site reliability engineering and devops-solutions. I'm also interested computer science, Linux and distributed systems. I vouch for agile development, open source and remote working. For more detailed information about my experience and expertise check my [Linkedin-profile](https://linkedin.com/in/valtonenville1).
 
-Although I'm very enthusiastic about programming and software engineering, I also enjoy powerlifting, motorcycling and floorball.
+Although I'm very enthusiastic about programming and software engineering, I'm also interested in powerlifting, motorcycling and investing.
 
-If you're interested in my setup, you can find the details [here](https://vvaltonen.com/post/gear/).
+If you're interested in what tools I use, you can find the details [here](https://villevaltonen.fi/post/gear/).

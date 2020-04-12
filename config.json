@@ -1,9 +1,14 @@
 {
-  "baseURL": "https://vvaltonen.com",
+  "baseURL": "https://villevaltonen.fi",
   "languageCode": "en-us",
   "title": "Ville Valtonen",
   "CanonifyUrls": true,
-  "disableKinds": ["taxonomy", "taxonomyTerm", "category", "section"],
+  "disableKinds": [
+    "taxonomy",
+    "taxonomyTerm",
+    "category",
+    "section"
+  ],
   "markup": {
     "highlight": {
       "codeFences": true,
