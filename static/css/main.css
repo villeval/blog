@@ -11,14 +11,6 @@ body {
   width: 100%;
   min-height: 100vh;
   z-index: 0;
-  background-size: cover;
-  background: url("/img/bg.png") rgb(30,30,30);
-  background-repeat: no-repeat;
-  background-position: center;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
   font-weight: 400;
 }
 
