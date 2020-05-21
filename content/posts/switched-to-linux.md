@@ -4,7 +4,6 @@ date: 2020-02-02T00:20:00+02:00
 description: "Why I switched to Linux? How's Linux in 2020? Do I miss something from Windows? A short summary of my experiences with Linux as my daily driver."
 author: "Ville Valtonen"
 draft: false
-featured: true
 hidden: false
 ---
 

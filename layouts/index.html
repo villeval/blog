@@ -3,22 +3,8 @@
 
 <main>
     <div>
-
-        <h1 class="h1-blog">Featured</h1>
+        <h1 class="h1-blog">Posts</h1>
         {{ range .Site.RegularPages.ByDate.Reverse }}
-        {{ if .Params.featured }}
-        <article>
-            <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
-            <div class="time">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
-            <p>{{ .Description }}</p>
-            <a class="read-more" href="{{ .Permalink }}" title="{{ .Title }}">Read more...</a>
-        </article>
-        {{ end }}
-        {{ end }}
-
-        <h1 class="h1-blog">Blog</h1>
-        {{ range .Site.RegularPages.ByDate.Reverse }}
-        {{ if not .Params.featured }}
         {{ if not .Params.hidden }}
         <article>
             <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
@@ -27,7 +13,6 @@
             <a class="read-more" href="{{ .Permalink }}" title="{{ .Title }}">Read more...</a>
             <hr class="hr-index" />
         </article>
-        {{ end }}
         {{ end }}
         {{ end }}
     </div>

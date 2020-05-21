@@ -1,10 +1,9 @@
 ---
 title: "Self-learning the basics of machine learning"
 date: 2019-08-03T00:00:00+02:00
-description: "Although I like working on server-side development, system architecture and devops, I've always been really interested in data and using it. In university I really enjoyed the courses, which had lectures related data modeling, translating data to insights or working with big data. I'm fascinated by the potential and the capabilities of data science and especially machine learning."
+description: "I put together a curriculum for the basics of machine learning."
 author: "Ville Valtonen"
 draft: false
-featured: false
 ---
 
 Although I like working on server-side development, system architecture and devops, I've always been really interested in data and using it. In university I really enjoyed the courses, which had lectures related data modeling, translating data to insights or working with big data. I'm fascinated by the potential and the capabilities of data science and especially machine learning.

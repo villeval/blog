@@ -1,10 +1,9 @@
 ---
 title: "Testing your Ansible playbooks with Docker"
 date: 2019-08-07T00:00:00+02:00
-description: "When I was writing my first Ansible playbooks from scratch, for a real customer instead of training, I wasn't too confident to start testing them against real cloud instances or servers. I wasn't too enthusiasted about setting up a virtual machine with Hyper-V (Hyper-V blocks use of VirtualBox and Docker for Windows requires Hyper-V enabled) either or configuring Vagrant, especially not for Windows, which is currently the main operating system I use. That's when Docker came into the picture."
+description: "How to utilize Docker to test Ansible-playbooks."
 author: "Ville Valtonen"
 draft: false
-featured: false
 
 ---
 
