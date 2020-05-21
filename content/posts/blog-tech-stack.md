@@ -3,7 +3,7 @@ title: "Building a blog with Hugo and AWS"
 date: 2020-05-21T00:00:00+02:00
 description: "A short tour into the building blocks of my blog."
 author: "Ville Valtonen"
-draft: true
+draft: false
 ---
 
 ### Background
