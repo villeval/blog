@@ -7,7 +7,7 @@ draft: false
 hidden: true
 ---
 
-Hi, I'm Ville! I'm a software engineer focusing on building back-end software and system architectures. Building scalable and reliable distributed systems is something I thrive on and I'm interested in big data engineering, site reliability engineering and computer science theory. I vouch for open source and remote working. For more detailed information about my experience and expertise check my [Linkedin-profile](https://linkedin.com/in/valtonenville1).
+Hi, I'm Ville! I'm a software engineer focusing on building back-end software and system architectures. Building scalable and reliable distributed systems is something I thrive on, but I'm also interested in big data engineering, site reliability engineering and computer science theory. I vouch for open source and remote working. For more detailed information about my experience and expertise check my [Linkedin-profile](https://linkedin.com/in/valtonenville1).
 
 Although I like coding and software engineering a lot, I'm really enjoying things like powerlifting, motorcycling and investing as well.
 
