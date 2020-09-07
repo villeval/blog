@@ -1,4 +1,4 @@
-Source code of my blog: https://villevaltonen.fi
+Source code of my blog
 
 Built with ([Hugo](https://gohugo.io))
 
