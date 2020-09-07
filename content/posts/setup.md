@@ -18,7 +18,7 @@ Here is a list of the equipment, which I use day to day for my work and personal
 - Headphones: Koss Porta Pro
 
 ### OS
-- Debian
+- Debian (Buster, stable)
 
 ### Tools
 - Intellij IDEA
