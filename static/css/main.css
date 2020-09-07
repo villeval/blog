@@ -17,12 +17,12 @@ body {
 /* navbar */
 ul.topnav {
   width: 90vw;
-  max-width: 800px;
+  max-width: 700px;
   list-style-type: none;
   margin: auto;
   padding: 0;
   overflow: hidden;
-  font-size: 20px;
+  font-size: 18px;
   background-color: rgba(0,0,0,0);
 }
 
@@ -36,13 +36,13 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li.right {float: right; padding-left: 16px; font-size: 20px;}
-ul.topnav li.icons { font-size: 20px; margin-top: 2px;}
+ul.topnav li.right {float: right; padding-left: 16px; font-size: 18px;}
+ul.topnav li.icons { font-size: 18px; margin-top: 2px;}
 
 /* main */
 main {
   width: 90vw;
-  max-width: 800px;
+  max-width: 700px;
   padding-top: 20px;
   margin: auto;
 }
@@ -56,7 +56,7 @@ h1 {
   margin-bottom: 18px;
   font-weight: 500;
   line-height: 1.2;
-  font-size: 32px;
+  font-size: 30px;
 }
 
 .h1-blog {
@@ -79,13 +79,13 @@ h3 {
   margin-block-end: 0.5%;
   margin-block-start: 25px;
   font-weight: 500;
-  font-size: 24px;
+  font-size: 22px;
   color: #2e9cca;
 }
 
 /* paragraphs */
 p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5em;
   text-align: justify;
   margin-block-start: 1.4%;
@@ -94,7 +94,7 @@ p {
 
 /* links */
 a {
-  font-size: 22;
+  font-size: 20;
   color: #2e9cca;
   text-decoration: none;
 }
@@ -117,7 +117,7 @@ footer {
   position: relative;
   padding-top: 100px;
   padding-bottom: 20px;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* hr */
