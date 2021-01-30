@@ -23,4 +23,4 @@ It all sounds great, but are there any disadvantages or something I miss from Wi
 
 To summarize it, Linux (more specifically Debian) is a great OS for my needs and I will continue using it as my daily driver. Sure, there are couple of things that could be better, but the overall experience is really nice. I haven't had anything major issues, the operating system is really stable and fast and the hardware support is great. If you have thought about switching to Linux, I can highly recommend it. But buyer's beware, it's a captivating journey!
 
-PS. If you're more interested in my setup, you can found it from [here](https://villevaltonen.fi/post/gear). My dotfiles and setup scripts are also available at [Github](https://github.com/villevaltonen/dotfiles).
+PS. If you're more interested in my setup, you can found it from [here](https://villevaltonen.fi/post/setup). My dotfiles and setup scripts are also available at [Github](https://github.com/villevaltonen/dotfiles).
