@@ -13,18 +13,6 @@
     {{ .Site.Title }}: {{ if eq .Section "post" }}{{ .Title }}{{ else }}Home{{ end }}
   </title>
 
-  <!-- RSS -->
-  {{/*
-  <link rel="canonical" href="{{ .Permalink }}" />
-  {{ if .RSSLink }}
-  <link
-    href="{{ .RSSLink }}"
-    rel="alternate"
-    type="application/rss+xml"
-    title="{{ .Site.Title }}"
-  />
-  {{ end }} */}}
-
   <!-- Meta -->
   <meta
     name="description"
@@ -42,11 +30,17 @@
   <script src="https://platform.twitter.com/widgets.js"></script>
 
   <!-- Stylesheets and fonts -->
-  <link href="{{ .Site.BaseURL }}/css/main.css" rel="stylesheet" />
-  <link href="{{ .Site.BaseURL }}/css/fontawesome.css" rel="stylesheet" />
-  <link href="{{ .Site.BaseURL }}/css/brands.css" rel="stylesheet" />
+  <link href="{{ .Site.BaseURL }}css/main.css" rel="stylesheet" />
+  <link href="{{ .Site.BaseURL }}css/fontawesome.min.css" rel="stylesheet" />
+  <link href="{{ .Site.BaseURL }}css/brands.min.css" rel="stylesheet" />
+  <link href="{{ .Site.BaseURL }}css/solid.min.css" rel="stylesheet" />
   <link
     href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap"
     rel="stylesheet"
   />
-</head>
+
+  <!-- RSS -->
+  {{ range .AlternativeOutputFormats -}}
+    {{ printf `<link rel="%s" type="%s" href="%s" title="%s" />` .Rel .MediaType.Type .Permalink $.Site.Title | safeHTML }}
+  {{ end -}}
+</head>  

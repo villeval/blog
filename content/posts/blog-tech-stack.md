@@ -10,7 +10,7 @@ draft: false
 
 When I decided to create a personal website, I initially built it with React. Partially because I wanted more experience about the technology but also partly because I thought single-page applications are the way to go in the modern age of the internet. The logic and code for the blog was still fairly simple, but the problem was that the content was tied into the codebase of the page and I was "vendor-locked" into my own code. The page was also rendered at client-side so it was not SEO-friendly either.
 
-One day I came across with the source code of a blog I've been reading for some time ([jessfraz.com](jessfraz.com)) and saw that it was built with this static-site generator called Hugo. After a brief investigation of the technology, I decided it was time to migrate my site from React to Hugo. The primary reasons were the simplicity of the content producing and static site generator as well as the super low build time. I'm also a huge fan of Go.
+One day I came across with the source code of a blog I've been reading for some time ([jessfraz.com](https://jessfraz.com)) and saw that it was built with this static-site generator called Hugo. After a brief investigation of the technology, I decided it was time to migrate my site from React to Hugo. The primary reasons were the simplicity of the content producing and static site generator as well as the super low build time. I'm also a huge fan of Go.
 
 ### Building the site with Hugo
 
