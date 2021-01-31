@@ -1,5 +1,6 @@
 Source code of my blog
 
-Built with ([Hugo](https://gohugo.io))
+Built with awesome [Hugo](https://gohugo.io).
 
-Run locally: hugo server
+Run: ```hugo server```
+Build: ```hugo```
