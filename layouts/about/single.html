@@ -1,0 +1,14 @@
+{{ partial "header.html" . }}
+{{ partial "navbar.html" . }}
+
+<main>
+  <a class="read-more" href="{{ .Site.BaseURL }}">Back to posts</a>
+  <article>
+    <h1>{{ .Title | emojify }}</h1>
+    <hr class="hr-post" />
+    {{ .Content }}
+  </article>
+  <br />
+</main>
+
+{{ partial "footer.html" . }}
