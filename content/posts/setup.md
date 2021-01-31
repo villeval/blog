@@ -10,6 +10,7 @@ hidden: true
 Here is a list of the equipment, which I use day to day for my work and personal projects.
 
 ### Computer
+
 - Laptop: Lenovo Thinkpad X1 Carbon 6th gen. (work)
 - Laptop: Lenovo Thinkpad 13 (personal)
 - Monitor: Lenovo P27q with double-joint stand
@@ -18,9 +19,10 @@ Here is a list of the equipment, which I use day to day for my work and personal
 - Headphones: Koss Porta Pro
 
 ### OS
-- Debian (Buster, stable)
+
+- Debian (stable)
 
 ### Tools
+
 - Intellij IDEA
 - Visual Studio Code
-- Vim

@@ -1,17 +1,21 @@
-{{ partial "header.html" . }}
-{{ partial "navbar.html" . }}
+{{ partial "header.html" . }} {{ partial "navbar.html" . }}
 
 <main>
-    <a class="read-more" href="{{ .Site.BaseURL }}">Back to posts</a>
-    <article>
-        <h1>{{ .Title }}</h1>
-        <div class="time">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
-        <hr class="hr-post" />
-        {{ .Content }}
-    </article>
-    <br>
-    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button tweet-button"
-        data-text="{{ .Title }}" data-via="villevalto" data-show-count="false"></a>
+  <a class="read-more" href="{{ .Site.BaseURL }}">Back to posts</a>
+  <article>
+    <h1>{{ .Title }}</h1>
+    <div class="time">{{ .Date.Format "Mon, Jan 2, 2006" }}</div>
+    <hr class="hr-post" />
+    {{ .Content }}
+  </article>
+  <br />
+  <a
+    href="https://twitter.com/share?ref_src=twsrc%5Etfw"
+    class="twitter-share-button tweet-button"
+    data-text="{{ .Title }}"
+    data-via="villevalt"
+    data-show-count="false"
+  ></a>
 </main>
 
 {{ partial "footer.html" . }}
