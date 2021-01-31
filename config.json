@@ -1,7 +1,7 @@
 {
   "baseURL": "https://villevaltonen.fi",
   "languageCode": "en-us",
-  "title": "Ville Valtonen",
+  "title": "villevaltonen.fi",
   "canonifyUrls": true,
   "disableKinds": ["taxonomy", "taxonomyTerm", "category", "section"],
   "markup": {
