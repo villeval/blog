@@ -3,7 +3,7 @@ title: "Self-learning the basics of machine learning"
 date: 2019-08-03T00:00:00+02:00
 description: "I put together a curriculum for the basics of machine learning."
 author: "Ville Valtonen"
-draft: false
+draft: true
 hidden: true
 ---
 
