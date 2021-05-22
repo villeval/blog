@@ -7,8 +7,8 @@ draft: false
 hidden: true
 ---
 
-I'm Ville, a software engineer based in Finland, who works on backend and infrastructure. Building scalable and reliable distributed systems is something I thrive on, but during my spare time I like to explore new things, usually by building something with a new technology.
+I'm Ville Valtonen, a Software Engineer on the core engineering team at Wolt. Building scalable and reliable distributed systems is something I thrive on and I'm focusing on that at Wolt as well.
 
-Although I like coding and software engineering a lot, I don't spend all of my time on doing that. My hobbies include powerlifting, sports and motorcycling and I'm interested in economics as well.
+Before joining Wolt, I worked at a consultation company Solita, where my focus was backend development, data integrations and designing and establishing system architectures for cloud and on-premise platforms. I graduated from the University of Jyväskylä with a Master's degree in Information Systems science and I have a Bachelor's degree in Business Administration.
 
 If you have any questions or just want to chat, feel free to reach me out on [Twitter](https://twitter.com/villevalt).

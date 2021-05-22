@@ -24,21 +24,17 @@ At first, we need a Dockerfile, which is the blueprint for our test container. A
 FROM centos:centos7
 
 # installing openssh-server
-
 RUN yum -y update; yum clean all
 RUN yum install -y openssh-server sudo
 RUN sed -i 's/#PermitRootLogin yes/PermitRootLogin without-password/' /etc/ssh/sshd_config
 
 # creating necessary folder for ssh service
-
 RUN mkdir /var/run/sshd
 
 # creating key
-
 RUN ssh-keygen -t rsa -f /etc/ssh/ssh_host_rsa_key -N ''
 
 # setting entrypoint for image
-
 ENTRYPOINT ["/usr/sbin/sshd", "-D"]
 {{< /highlight >}}
 
@@ -56,7 +52,6 @@ Next we can define what we want to do with our playbook. This could be done dire
 ## {{< highlight yaml >}}
 
 # echo hello world for testing
-
 - name: printing hello world
   shell: echo "Hello from helloworld-role!"
   {{< /highlight >}}
@@ -78,22 +73,18 @@ Now that we have created the Ansible playbook and an Ansible-host which will be 
 #!/bin/bash
 
 # initializing variables
-
 EXPOSED_PORT=$1
 DOCKER_CONTAINER_NAME="ansible-test-centos"
 DOCKER_IMAGE_NAME="mycentos-ssh"
 
 # building and running the docker image
-
 docker build -t $DOCKER_IMAGE_NAME docker/
 docker run -ti --name $DOCKER_CONTAINER_NAME -d -p $EXPOSED_PORT:22 $DOCKER_IMAGE_NAME
 
 # running ansible playbook
-
 ansible-playbook -i ansible/environments/localtest/ ansible/myplaybook.yml
 
 # stopping and removing the container
-
 docker stop $DOCKER_CONTAINER_NAME && docker rm $DOCKER_CONTAINER_NAME
 {{< /highlight >}}
 

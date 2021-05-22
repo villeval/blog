@@ -9,7 +9,7 @@ hidden: false
 
 It has been few months now since I made the switch from Windows to Linux. I've had dual-boot of Windows 10 and Linux couple of times in the past at home, but last fall I did something completely new, I installed a Linux OS on my work machine for the first time ever. It was mainly because I started to encounter the limits of Windows more often and some of my colleagues were already using Linux in our corporate environment quite happily, so I thought that I'll give it a shot. In this post I'll share my experience with Linux so far.
 
-### Why did I switch
+### Why did I switch?
 
 As a disclaimer, I don't hate or dislike Windows 10. I think it's pretty solid OS in general, but for my use, Linux is superior. In the beginning of this post I mentioned that I started to encounter the limitations of Windows more often. One of the those was that if I wanted to use Docker for Windows, I had to enable Hyper-V, which blocks the usage of any "level 2 hypervisors" like VirtualBox and VMWare. Other major reason for the switch was the integration of development tools and OS itself. Although Windows Subsystem for Linux (WSL) is one of the coolest pieces of technology that I've encountered lately, I wanted more integrated experience between my development tools and operating system. Dealing with WSL and Windows itself felt like dealing with two separate machines.
 
