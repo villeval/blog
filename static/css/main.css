@@ -1,13 +1,13 @@
 html {
   font-family: "Nunito Sans", sans-serif;
-  background-color: rgb(50, 50, 50);
-  color: white;
+  background-color: white;
+  color: black;
 }
 
 body {
   margin: 0;
   position: relative;
-  background-color: #1f1f1f;
+  background-color: white;
   width: 100%;
   min-height: 100vh;
   z-index: 0;
@@ -30,7 +30,7 @@ ul.topnav li {float: left;}
 
 ul.topnav li a {
   display: block;
-  color: rgba(255, 255, 255, 0.6);
+  color: black;
   text-align: center;
   padding: 14px 0px;
   text-decoration: none;
@@ -50,7 +50,7 @@ main {
 /* headers */
 h1 {
   position: relative;
-  color: white;
+  color: #2e9cca;
   margin-top: 25px;
   margin-block-end: auto;
   margin-bottom: 18px;
