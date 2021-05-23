@@ -3,18 +3,7 @@
 
 <main>
     <div>
-        <h1 class="h1-blog">Posts</h1>
-        {{ range .Site.RegularPages.ByDate.Reverse }}
-        {{ if not .Params.hidden }}
-        <article>
-            <h3><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h3>
-            <div class="time">{{ .Date.Format "January 2, 2006" }}</div>
-            <p>{{ .Description }}</p>
-            <a class="read-more" href="{{ .Permalink }}" title="{{ .Title }}">Read more...</a>
-            <hr class="hr-index" />
-        </article>
-        {{ end }}
-        {{ end }}
+        <h1 class="h1-blog">Index</h1>
     </div>
 </main>
 
