@@ -1,17 +1,15 @@
-html {
+html, body {
   font-family: "Nunito Sans", sans-serif;
   background-color: white;
   color: black;
-}
-
-body {
   margin: 0;
   position: relative;
   background-color: white;
   width: 100%;
-  min-height: 100vh;
+  min-height: 100%;
   z-index: 0;
   font-weight: 400;
+  /* border-top: 3px solid #0f80c6; */
 }
 
 /* navbar */
@@ -34,10 +32,6 @@ ul.topnav li a {
   text-align: center;
   padding: 14px 0px;
   text-decoration: none;
-}
-
-ul.topnav li a:hover {
-  text-decoration: underline;
 }
 
 ul.topnav li.right {float: right; padding-left: 16px; font-size: 18px;}
@@ -81,11 +75,6 @@ main {
 
 .index-links a {
   margin-top: 10px;
-}
-
-.index-links a:hover {
-  color: #2e9cca;
-  text-decoration: none;
 }
 
 /* headers */
@@ -133,7 +122,7 @@ p {
 }
 
 p a {
-  text-decoration: underline;
+  color: #398fdb;
 }
 
 /* links */
@@ -144,8 +133,8 @@ a {
 }
 
 a:hover {
-  color: black;
-  text-decoration: underline;
+  color: #398fdb;
+  text-decoration: none;
 }
 
 .read-more {
