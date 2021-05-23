@@ -3,7 +3,7 @@
   "languageCode": "en-us",
   "title": "villevaltonen.fi",
   "canonifyUrls": true,
-  "disableKinds": ["taxonomy", "taxonomyTerm", "category", "section"],
+  "disableKinds": ["taxonomy", "taxonomyTerm", "category"],
   "markup": {
     "highlight": {
       "codeFences": true,
