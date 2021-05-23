@@ -7,7 +7,7 @@ draft: false
 hidden: true
 ---
 
-I am a Software Engineer on the core engineering team at Wolt. Building scalable and reliable distributed systems is something I thrive on and I'm focusing on that at Wolt as well.
+I am a Software Engineer on the core engineering team at [Wolt](https://wolt.com). Building scalable and reliable distributed systems is something I thrive on and I'm focusing on that at Wolt as well.
 
 Before joining Wolt, I worked at a consultation company Solita, where my focus was backend development, data integrations and designing and establishing system architectures for cloud and on-premise platforms. I graduated from the University of Jyväskylä with a Master's degree in Information Systems science and I have a Bachelor's degree in Business Administration as well.
 

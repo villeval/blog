@@ -25,4 +25,4 @@ The cost of hosting my site like this is pretty negligible and would remain so a
 \
 Thanks for reading and see you next time!
 
-PS. If you're interested in, the source code of my website is available in [Github](https://github.com/villevaltonen/blog).
+PS. If you're interested in, the source code of my website is available in [Github](https://github.com/villevaltonen/website).
