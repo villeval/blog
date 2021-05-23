@@ -34,6 +34,10 @@ ul.topnav li a {
   text-decoration: none;
 }
 
+ul.topnav li a::before {
+  color: black;
+}
+
 ul.topnav li.right {float: right; padding-left: 16px; font-size: 18px;}
 ul.topnav li.icons { font-size: 18px; margin-top: 2px;}
 
@@ -75,6 +79,24 @@ main {
 
 .index-links a {
   margin-top: 10px;
+  color: #398fdb;
+}
+
+.index-links a:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.fa-twitter:before {
+  color: #1DA1F2;
+}
+
+.fa-linkedin:before {
+  color: #0072b1;
+}
+
+.fa-github:before {
+  color: black;
 }
 
 /* headers */
@@ -134,7 +156,7 @@ a {
 
 a:hover {
   color: #398fdb;
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 .read-more {
