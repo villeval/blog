@@ -51,6 +51,42 @@ main {
   margin: auto;
 }
 
+.index-div {
+  text-align: center;
+}
+
+.index-div h3 {
+  margin-block-start: 10px;
+}
+
+.index-div h1 {
+  margin-bottom: 0px;
+}
+
+.index-links {
+  list-style-type: none;
+  padding-inline-start: 0px;
+  margin-left: 0px;
+  font-weight: 500;
+  font-size: 32px;
+  align-content: center;
+}
+
+.index-links li {
+  width: 150px;
+  text-align: left;
+  margin: auto;
+}
+
+.index-links a {
+  margin-top: 10px;
+}
+
+.index-links a:hover {
+  color: #2e9cca;
+  text-decoration: none;
+}
+
 /* headers */
 h1 {
   position: relative;
