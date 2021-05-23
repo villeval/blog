@@ -154,7 +154,8 @@ footer {
 }
 
 footer a {
-  text-decoration: underline;
+  text-decoration: none;
+  color: #398fdb;
 }
 
 /* hr */
