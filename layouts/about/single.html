@@ -4,7 +4,8 @@
 <main>
   <a class="read-more" href="{{ .Site.BaseURL }}">Back to posts</a>
   <article>
-    <h1>{{ .Title | emojify }}</h1>
+      <img class="profilepic" src="{{ .Site.BaseURL }}/img/profile.jpg" width="250" height="250"/>
+      <h1>{{ .Title | emojify }}</h1>
     <hr class="hr-post" />
     {{ .Content }}
   </article>
