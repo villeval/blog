@@ -1,4 +1,4 @@
-Source code of my blog
+Source code of my personal website.
 
 Built with awesome [Hugo](https://gohugo.io).
 
