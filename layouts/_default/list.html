@@ -1,7 +1,6 @@
-{{ partial "header.html" . }}
-{{ partial "navbar.html" . }}
-
 <main>
+    {{ partial "header.html" . }}
+    {{ partial "navbar.html" . }}
     <div>
         {{ range .Pages.ByDate.Reverse }}
         {{ if not .Params.hidden }}
@@ -15,6 +14,5 @@
         {{ end }}
         {{ end }}
     </div>
+    {{ partial "footer.html" . }}
 </main>
-
-{{ partial "footer.html" . }}

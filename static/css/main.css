@@ -1,18 +1,23 @@
-html, body {
+body {
   font-family: "Nunito Sans", sans-serif;
   background-color: white;
   color: black;
-  margin: 0;
   position: relative;
-  background-color: white;
-  width: 100%;
-  min-height: 100%;
-  z-index: 0;
   font-weight: 400;
-  /* border-top: 3px solid #0f80c6; */
+  margin: 0px;
 }
 
-/* navbar */
+main {
+  width: 90vw;
+  max-width: 700px;
+  margin: auto;
+  position: relative;
+  height: 100%;
+  min-height: 100vh;
+}
+
+/* Navigation bar
+------------------------------------ */
 ul.topnav {
   width: 90vw;
   max-width: 700px;
@@ -41,14 +46,8 @@ ul.topnav li a::before {
 ul.topnav li.right {float: right; padding-left: 16px; font-size: 18px;}
 ul.topnav li.icons { font-size: 18px; margin-top: 2px;}
 
-/* main */
-main {
-  width: 90vw;
-  max-width: 700px;
-  padding-top: 20px;
-  margin: auto;
-}
-
+/* Index page
+------------------------------------ */
 .index-div {
   text-align: center;
 }
@@ -80,6 +79,7 @@ main {
 .index-links a {
   margin-top: 10px;
   color: #398fdb;
+  font-size: 30px;
 }
 
 .index-links a:hover {
@@ -99,7 +99,8 @@ main {
   color: black;
 }
 
-/* headers */
+/* Headers
+------------------------------------ */
 h1 {
   position: relative;
   color: black;
@@ -134,7 +135,8 @@ h3 {
   font-size: 22px;
 }
 
-/* paragraphs */
+/* Paragraphs
+------------------------------------ */
 p {
   font-size: 18px;
   line-height: 1.5em;
@@ -147,7 +149,8 @@ p a {
   color: #398fdb;
 }
 
-/* links */
+/* Links
+------------------------------------ */
 a {
   font-size: 20;
   color: black;
@@ -163,21 +166,20 @@ a:hover {
   font-size: 18px;
 }
 
-/* footer */
+/* Footer
+------------------------------------ */
 footer {
-  width: 50%;
-  padding-right: 25%;
-  padding-left: 25%;
+  width: 100%;
   text-align: center;
-  position: relative;
-  padding-top: 100px;
-  padding-bottom: 20px;
-  font-size: 18px;
+  font-size: 16px;
+  height: 25px;
+  margin-top: 50px;
 }
 
 footer a {
   text-decoration: none;
   color: #398fdb;
+  font-size: 16px;
 }
 
 /* hr */

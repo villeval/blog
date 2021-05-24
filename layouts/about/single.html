@@ -1,7 +1,6 @@
-{{ partial "header.html" . }}
-{{ partial "navbar.html" . }}
-
 <main>
+  {{ partial "header.html" . }}
+  {{ partial "navbar.html" . }}
   <article>
       <img class="profilepic" src="{{ .Site.BaseURL }}/img/profile.jpg" width="250" height="250"/>
       <h1>{{ .Title | emojify }}</h1>
@@ -9,6 +8,5 @@
     {{ .Content }}
   </article>
   <br />
+  {{ partial "footer.html" . }}
 </main>
-
-{{ partial "footer.html" . }}
