@@ -173,13 +173,19 @@ footer {
   text-align: center;
   font-size: 16px;
   height: 25px;
-  margin-top: 50px;
+  position: absolute;
+  bottom: 0;
 }
 
 footer a {
   text-decoration: none;
   color: #398fdb;
   font-size: 16px;
+}
+
+.post-footer {
+  position: relative;
+  margin-top: 50px;
 }
 
 /* hr */
