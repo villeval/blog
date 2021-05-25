@@ -1,5 +1,5 @@
 ---
-title: ":wave: Hello, I'm Ville Valtonen!"
+title: ":wave: Hi, I'm Ville Valtonen!"
 date: 2019-08-03T00:00:00+02:00
 description: "A brief introduction of the author"
 author: "Ville Valtonen"

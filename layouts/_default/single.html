@@ -1,7 +1,6 @@
 {{ partial "header.html" . }} 
 <main>
   {{ partial "navbar.html" . }}
-  <a class="read-more" href="{{ .Site.BaseURL }}/{{ .Section }}">Back to posts</a>
   <article>
     <h1>{{ .Title }}</h1>
     <div class="time">{{ .Date.Format "Jan 2, 2006" }}</div>

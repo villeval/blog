@@ -2,7 +2,7 @@ body {
   font-family: "Nunito Sans", sans-serif;
   /* font-family: 'Oswald', sans-serif; */
   background-color: white;
-  color: black;
+  color: #333;
   position: relative;
   font-weight: 300;
   margin: 0px;
@@ -18,6 +18,10 @@ main {
   min-height: 100vh;
 }
 
+img {
+  margin-top: 20px;
+}
+
 /* Navigation bar
 ------------------------------------ */
 ul.topnav {
@@ -27,21 +31,20 @@ ul.topnav {
   margin: auto;
   padding: 0;
   overflow: hidden;
-  background-color: rgba(0,0,0,0);
 }
 
 ul.topnav li {float: left;}
 
 ul.topnav li a {
   display: block;
-  color: black;
+  color: #333;
   text-align: center;
   padding: 14px 0px;
   text-decoration: none;
 }
 
 ul.topnav li a::before {
-  color: black;
+  color: #333;
 }
 
 ul.topnav li.right { float: right; padding-left: 16px; }
@@ -54,38 +57,44 @@ ul.topnav li.icons {  margin-top: 2px; }
 }
 
 .index-div h3 {
-  margin-block-start: 10px;
+  margin-block-start: 0px;
+  margin-block-end: 60px;
+  text-transform: none;
 }
 
 .index-div h1 {
   font-size: 40px;
-  margin-bottom: 0px;
   margin-top: 80px;
+  margin-bottom: 5px;
 }
 
 .index-links {
   list-style-type: none;
   padding-inline-start: 0px;
   margin-left: 0px;
-  font-size: 30px;
+  font-size: 36px;
   align-content: center;
 }
 
 .index-links li {
-  width: 150px;
   text-align: left;
   margin: auto;
+  width: 200px;
+}
+
+.index-link-text {
+  font-family: "Nunito Sans", sans-serif;
+  margin-left: 10px;
 }
 
 .index-links a {
-  margin-top: 10px;
-  color: #398fdb;
-  font-size: 30px;
+  margin-top: 5px;
+  float: left;
 }
 
 .index-links a:hover {
   text-decoration: none;
-  color: black;
+  color: #333;
 }
 
 .fa-twitter:before {
@@ -97,7 +106,7 @@ ul.topnav li.icons {  margin-top: 2px; }
 }
 
 .fa-github:before {
-  color: black;
+  color: #333;
 }
 
 /* Headers
@@ -109,17 +118,14 @@ h1 {
   margin-bottom: 18px;
   line-height: 1.2;
   font-size: 30px;
-}
-
-.h1-blog {
-  margin-bottom: 15px;
-  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 h2 {
   margin-block-end: 0.5%;
   margin-block-start: 10px;
   font-weight: 600;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -127,12 +133,20 @@ h3 {
   margin-block-start: 25px;
   font-weight: 600;
   font-size: 22px;
+  text-transform: uppercase;
 }
+
+.time {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: grey;
+}
+
 
 /* Paragraphs
 ------------------------------------ */
 p {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5em;
   text-align: justify;
   margin-block-start: 1.4%;
@@ -147,7 +161,7 @@ p a {
 ------------------------------------ */
 a {
   font-size: 20;
-  color: black;
+  color: #333;
   text-decoration: none;
 }
 
@@ -182,10 +196,6 @@ footer a {
   margin-top: 50px;
 }
 
-.footer-icon {
-  font-weight: 400;
-}
-
 /* hr */
 .hr-post {
   display: block;
@@ -193,30 +203,10 @@ footer a {
   border: 0;
   margin: 1em 0;
   padding: 0; 
-  border-top: 1px solid black;
+  border-top: 1px solid #333;
 }
 
 .hr-index {
   margin-top: 20px;
   margin-bottom: 20px;
-}
-
-.time {
-  font-size: 16px;
-  margin-bottom: 10px;
-  color: grey;
-}
-
-.hello {
-  margin-bottom: 5px;
-  line-height: 1em;
-}
-
-.bio {
-  margin-block-end: 0px;
-  margin-block-start: 0px;
-}
-
-img {
-  margin-top: 20px;
 }
