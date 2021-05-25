@@ -7,12 +7,16 @@ body {
   font-weight: 300;
   margin: 0px;
   font-size: 18px;
+  border-top: 5px solid #398fdb;
+  border-bottom: 5px solid #398fdb;
 }
 
 main {
   width: 90vw;
   max-width: 700px;
   margin: auto;
+  margin-top: -5px;
+  margin-bottom: -5px;
   position: relative;
   height: 100%;
   min-height: 100vh;
@@ -31,6 +35,7 @@ ul.topnav {
   margin: auto;
   padding: 0;
   overflow: hidden;
+  padding-top: 10px;
 }
 
 ul.topnav li {float: left;}
@@ -171,6 +176,7 @@ a:hover {
 
 .tweet-button {
   text-align: center;
+  height: 40px;
 }
 
 /* Footer
@@ -179,7 +185,7 @@ footer {
   width: 100%;
   text-align: center;
   font-size: 16px;
-  height: 25px;
+  height: 50px;
   position: absolute;
   bottom: 0;
 }
@@ -234,5 +240,10 @@ footer a {
 
   .index-div h1 {
     margin-top: 50px;
+  }
+
+  footer {
+    height: 80px;
+    position: relative;
   }
 }
