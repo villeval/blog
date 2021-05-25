@@ -47,8 +47,7 @@ ul.topnav li a::before {
   color: #333;
 }
 
-ul.topnav li.right { float: right; padding-left: 16px; }
-ul.topnav li.icons {  margin-top: 2px; }
+ul.topnav li.right { float: right; padding-left: 14px; }
 
 /* Index page
 ------------------------------------ */
@@ -209,4 +208,27 @@ footer a {
 .hr-index {
   margin-top: 20px;
   margin-bottom: 20px;
+}
+
+/* For mobile
+------------------------------------ */
+@media (max-width: 450px) {
+  ul.topnav li a {
+    text-align: left;
+  }
+  
+  ul.topnav li.right {
+    float: left;
+    padding-left: 0px;
+  }
+
+  ul.topnav {
+    width: 120px;
+    text-align: left;
+    margin-left: 5px;
+  }
+
+  .index-div h1 {
+    margin-top: 20px;
+  }
 }
