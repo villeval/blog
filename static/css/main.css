@@ -242,7 +242,12 @@ footer a {
     margin-top: 50px;
   }
 
+  .index-div ul {
+    margin-block-end: 6em;
+  }
+
   footer {
+    position: relative;
     height: 80px;
   }
 
