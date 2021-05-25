@@ -244,6 +244,10 @@ footer a {
 
   footer {
     height: 80px;
+  }
+
+  .post-footer {
     position: relative;
+    height: 80px;
   }
 }
