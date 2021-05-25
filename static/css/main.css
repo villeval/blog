@@ -196,9 +196,16 @@ footer a {
   font-size: 16px;
 }
 
-.post-footer {
-  position: relative;
-  margin-top: 50px;
+.index-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.about-footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 /* hr */
@@ -242,17 +249,17 @@ footer a {
     margin-top: 50px;
   }
 
-  .index-div ul {
-    margin-block-end: 6em;
-  }
-
   footer {
     position: relative;
-    height: 80px;
   }
 
-  .post-footer {
+  .about-footer {
     position: relative;
-    height: 80px;
+  }
+}
+
+@media (min-height: 1.1vh) {
+  footer {
+    position: relative;
   }
 }
