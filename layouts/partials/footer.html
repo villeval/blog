@@ -1,3 +1,8 @@
 <footer class="footer">
-    &copy; Ville Valtonen {{ now.Format "2006" }}. Built with awesome <a href=https://gohugo.io>Hugo.</a> Site source code on <a href="https://github.com/villevaltonen/website">Github</a>.
+    &copy; Ville Valtonen {{ now.Format "2006" }}. Built with awesome <a href=https://gohugo.io>Hugo.</a> Site source code on <a href="https://github.com/villevaltonen/website">Github</a>. RSS-feed 
+      <a 
+        href="{{ .Site.BaseURL }}/index.xml" 
+        title="RSS Feed" 
+        class="fa fa-rss footer-icon"
+        target="_blank"></a>
 </footer>

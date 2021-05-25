@@ -1,10 +1,12 @@
 body {
   font-family: "Nunito Sans", sans-serif;
+  /* font-family: 'Oswald', sans-serif; */
   background-color: white;
   color: black;
   position: relative;
-  font-weight: 400;
+  font-weight: 300;
   margin: 0px;
+  font-size: 18px;
 }
 
 main {
@@ -25,7 +27,6 @@ ul.topnav {
   margin: auto;
   padding: 0;
   overflow: hidden;
-  font-size: 18px;
   background-color: rgba(0,0,0,0);
 }
 
@@ -43,8 +44,8 @@ ul.topnav li a::before {
   color: black;
 }
 
-ul.topnav li.right {float: right; padding-left: 16px; font-size: 18px;}
-ul.topnav li.icons { font-size: 18px; margin-top: 2px;}
+ul.topnav li.right { float: right; padding-left: 16px; }
+ul.topnav li.icons {  margin-top: 2px; }
 
 /* Index page
 ------------------------------------ */
@@ -66,7 +67,6 @@ ul.topnav li.icons { font-size: 18px; margin-top: 2px;}
   list-style-type: none;
   padding-inline-start: 0px;
   margin-left: 0px;
-  font-weight: 500;
   font-size: 30px;
   align-content: center;
 }
@@ -104,23 +104,16 @@ ul.topnav li.icons { font-size: 18px; margin-top: 2px;}
 ------------------------------------ */
 h1 {
   position: relative;
-  color: black;
   margin-top: 25px;
   margin-block-end: auto;
   margin-bottom: 18px;
-  font-weight: 600;
   line-height: 1.2;
   font-size: 30px;
 }
 
 .h1-blog {
   margin-bottom: 15px;
-  font-weight: 600;
   line-height: 1.2;
-}
-
-.post-title {
-  font-weight: 500;
 }
 
 h2 {
@@ -139,7 +132,7 @@ h3 {
 /* Paragraphs
 ------------------------------------ */
 p {
-  font-size: 18px;
+  font-size: 20px;
   line-height: 1.5em;
   text-align: justify;
   margin-block-start: 1.4%;
@@ -161,10 +154,6 @@ a {
 a:hover {
   color: #398fdb;
   text-decoration: underline;
-}
-
-.read-more {
-  font-size: 18px;
 }
 
 .tweet-button {
@@ -191,6 +180,10 @@ footer a {
 .post-footer {
   position: relative;
   margin-top: 50px;
+}
+
+.footer-icon {
+  font-weight: 400;
 }
 
 /* hr */
