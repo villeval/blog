@@ -10,7 +10,7 @@
       "guessSyntax": false,
       "hl_Lines": "",
       "lineNoStart": 1,
-      "lineNos": false,
+      "lineNos": true,
       "lineNumbersInTable": true,
       "noClasses": true,
       "style": "monokailight",
