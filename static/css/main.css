@@ -26,6 +26,10 @@ img {
   margin-top: 20px;
 }
 
+td {
+  font-size: 15px;
+}
+
 /* Navigation bar
 ------------------------------------ */
 ul.topnav {
